@@ -1,0 +1,217 @@
+﻿/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Default link color */
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff; /* Ensure brand text stays white */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+    .navbar ul li {
+        margin: 0 10px;
+    }
+
+        .navbar ul li a {
+            color: #ffe599; /* Distinct clickable link color */
+            font-size: 14px;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .navbar ul li a:hover {
+                background-color: #ffcc00; /* Hover background for clickable links */
+                color: #000; /* Hover text color */
+            }
+
+/* Page Content Styles */
+.page-content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* General Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.w-50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+/* Form Styles */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.pt {
+    padding-top: 6px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea.form-input {
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+/* Button Styles */
+.button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button-green-back {
+    background-color: #28a745;
+}
+
+    .button-green-back:hover {
+        background-color: #218838;
+    }
+
+.button-blue-back {
+    background-color: #007bff;
+}
+.button-red-back {
+    background-color: red;
+}
+
+    .button-blue-back:hover {
+        background-color: #0056b3;
+    }
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+/* Header and Box Styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box .flex-1 {
+        margin-right: 10px;
+}
+
+.text-red {
+    color:red;
+}

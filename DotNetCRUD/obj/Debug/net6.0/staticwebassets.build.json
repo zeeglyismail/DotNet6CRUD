@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "kuGm0fqdpT8B42RWRfpy+ymgMZ5o7qkOxZtVxy1JXvQ=",
+  "Source": "DotNetCRUD",
+  "BasePath": "_content/DotNetCRUD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DotNetCRUD\\wwwroot",
+      "Source": "DotNetCRUD",
+      "ContentRoot": "C:\\Users\\ZeeglySmile\\Desktop\\DOTNET6\\DotNetCRUD\\wwwroot\\",
+      "BasePath": "_content/DotNetCRUD",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ZeeglySmile\\Desktop\\DOTNET6\\DotNetCRUD\\wwwroot\\StyleSheet.css",
+      "SourceId": "DotNetCRUD",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ZeeglySmile\\Desktop\\DOTNET6\\DotNetCRUD\\wwwroot\\",
+      "BasePath": "_content/DotNetCRUD",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
